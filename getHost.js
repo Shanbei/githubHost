@@ -28,6 +28,6 @@ async function init() {
 			return 
 		}
 	})
-	console.log(`########################\n${text}########################\nlinux/mac系统：sudo vim /etc/hosts\nWindows系统：打开 C:\\Windows\\System32\\drivers\\etc 找到hosts文件\n添加上方(host文件) ip 域名`)
+	console.log(`########################\n${text}########################\nlinux/mac系统：sudo vim /etc/hosts\nWindows系统：打开 C:\\Windows\\System32\\drivers\\etc 找到hosts文件\n添加/替换 上方(host文件) ip 域名`)
 }
 init()
